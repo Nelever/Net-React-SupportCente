@@ -31,7 +31,7 @@ function ModMenu(props) {
 
     function handleClick5(e) {
         e.preventDefault();
-        sendData4(setData, props, data.tickets)
+        sendData4(setData, props, data.tickets,data.mess)
     }
 
     if (data.tickets === "new") {
@@ -142,7 +142,7 @@ async function sendData3(setData, props, ticket) {
 
 };
 
-async function sendData4(setData, props, ticket) {
+async function sendData4(setData, props, ticket,mess) {
 
     let obb = props.user;
     obb.TicketId = ticket.id;
@@ -152,7 +152,7 @@ async function sendData4(setData, props, ticket) {
         method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(obb)
     })
         .then((response) => response.json())
-        .then((dane) => { if (dane === true) { sendData2(setData, props, ticket) } })
+        .then((dane) => { if (dane === true) { var obj = ticket; obj.statuss = "closed"; setData({tickets : obj,mess:mess}) } })
 
 };
 export default ModMenu;
