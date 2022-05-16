@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Frontendd", "Frontend\Frontendd.esproj", "{24BFE898-4C56-4EA7-83CD-8BF336AD1AED}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "frontendd", "Frontend\frontendd.esproj", "{24BFE898-4C56-4EA7-83CD-8BF336AD1AED}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd", "BackEnd\BackEnd.csproj", "{C5E4F6B5-01B4-4F4F-BE1B-5692C6A701A6}"
 EndProject
