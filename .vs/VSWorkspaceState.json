@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\BackEnd",
-    "\\BackEnd\\Controllers",
-    "\\BackEnd\\Responses",
-    "\\Frontend",
-    "\\Frontend\\src\\components"
+    ""
   ],
-  "SelectedNode": "\\Frontend",
+  "SelectedNode": "\\frontend.sln",
   "PreviewInSolutionExplorer": false
 }
