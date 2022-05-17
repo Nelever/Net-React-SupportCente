@@ -1,6 +1,7 @@
 In this project I used React as a frontend, ASP.NET Api as backend and MS SQL Server as database connected by EntityFramework.
 
 Database is hosted so to test this project you just need to clone it
+
 How to view this project:
 
 Requirements : 
