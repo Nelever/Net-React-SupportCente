@@ -4,7 +4,7 @@ function AssignTick(props) {
 
     const [data, setData] = useState({ tickets: [], mess: 1 });
 
-    useEffect(() => {
+    useEffect((props) => {
         fetch('/api/ticket/own', {
             method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(props.user)
         })
