@@ -8,7 +8,7 @@ Requirements :
 Visual studio 2022 ,Node
 
 Start visual studio ,click "Clone a repository" and use this link https://github.com/Nelever/Net-React-SupportCenter.git .
-After project has loaded restart visual studio. It will get rid of  "Plugin react was conflicted...." error. Project will work despite it so it's optional.
+After project has loaded restart visual studio. It will get rid of  "Plugin react was conflicted...." error. Project will work despite it so it's optional just close the error pop up.
 
 You can use user account with login: 1test@gmail.com password: 1234 or create new one.
 
